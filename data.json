@@ -827,19 +827,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/area?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/area?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/area?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -872,19 +868,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/area_definitions?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/area_definitions?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/area_definitions?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -917,19 +909,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/areatype?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/areatype?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/areatype?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -962,19 +950,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/data?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/data?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/data?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1007,19 +991,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/datatype?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/datatype?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/datatype?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1052,19 +1032,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/footnote?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/footnote?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/footnote?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1097,19 +1073,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/industry?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/industry?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/industry?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1142,19 +1114,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/industry_title?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/industry_title?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/industry_title?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1187,19 +1155,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/occugroup?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/occugroup?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/occugroup?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1232,19 +1196,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/occupation_definitions?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/occupation_definitions?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/occupation_definitions?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1277,19 +1237,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/release?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/release?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/release?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1322,19 +1278,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/Seasonal?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/Seasonal?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/Seasonal?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1367,19 +1319,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/sector?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/sector?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/sector?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1412,19 +1360,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/series?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/series?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/series?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1457,19 +1401,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/statemsa?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/statemsa?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES2010\/statemsa?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1737,8 +1677,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/316",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/bdm\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -1865,8 +1805,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/319",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cex\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2066,13 +2006,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/su\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/su\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2108,13 +2049,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/cu\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/cu\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2150,13 +2092,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/mu\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/mu\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2192,13 +2135,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/ap\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/ap\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2234,13 +2178,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/li\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/li\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2272,14 +2217,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_AREA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2311,14 +2252,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_BASE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_BASE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_BASE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2350,14 +2287,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_DATAPUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_DATAPUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_DATAPUB?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2389,14 +2322,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_FOOTNOTE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2428,14 +2357,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_ITEM?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_ITEM?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_ITEM?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2467,14 +2392,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_PERIODICITY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_PERIODICITY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_PERIODICITY?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2506,14 +2427,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_SEASONAL?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_SEASONAL?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_SEASONAL?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2545,14 +2462,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPI\/CU_SERIES?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2588,13 +2501,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/cw\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/cw\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2630,13 +2544,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/mw\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/mw\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2952,14 +2867,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CES\/CE_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CES\/CE_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CES\/CE_SERIES?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -2992,14 +2903,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CES\/CE_SUPERSECTOR?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CES\/CE_SUPERSECTOR?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CES\/CE_SUPERSECTOR?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3031,19 +2938,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_AGES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_AGES?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_AGES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3076,19 +2979,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_BORN?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_BORN?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_BORN?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3121,19 +3020,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_CLASS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_CLASS?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_CLASS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3166,19 +3061,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_DATA_PUB?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3211,19 +3102,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_EARN?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_EARN?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_EARN?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3256,19 +3143,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_EDUCATION?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_EDUCATION?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_EDUCATION?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3301,19 +3184,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_FIPS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_FIPS?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_FIPS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3346,19 +3225,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_FOOTNOTE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3391,19 +3266,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_INDY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_INDY?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_INDY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3437,19 +3308,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_LFST?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_LFST?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_LFST?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3482,19 +3349,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_OCCUPATION?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_OCCUPATION?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_OCCUPATION?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3527,19 +3390,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_ORIG?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_ORIG?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_ORIG?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3572,19 +3431,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_PCTS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_PCTS?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_PCTS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3617,19 +3472,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_RACE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_RACE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_RACE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3662,19 +3513,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SEASONAL?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SEASONAL?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SEASONAL?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3707,19 +3554,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SERIES?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3752,19 +3595,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SEXS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SEXS?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_SEXS?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3797,19 +3636,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_TDATA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_TDATA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_TDATA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -3842,19 +3677,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_UNIN?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_UNIN?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CPS\/LE_UNIN?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/321",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cps\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -4134,13 +3965,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/eb\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/eb\/"
         },
         {
+          "format" : "json",
+          "title" : "API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -4174,8 +4006,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/322",
-          "mediaType" : "text\/csv"
+          "format" : "xls",
+          "accessURL" : "http:\/\/data.bls.gov\/cgi-bin\/surveymost?eb"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -4217,13 +4049,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/cm\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/cm\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -4264,13 +4097,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/ci\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/ci\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -4342,8 +4176,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/323",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/eci\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -4378,8 +4212,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/317",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/ces\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5223,8 +5057,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/325",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/ilc\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5301,8 +5135,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/327",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/mxp\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5499,19 +5333,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_AREA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/328",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/iif\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5545,9 +5375,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_CASE_TYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_CASE_TYPE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
@@ -5556,8 +5387,8 @@
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/328",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/iif\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5591,19 +5422,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_DATA_PUB?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/328",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/iif\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5637,19 +5464,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_DATA_TYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_DATA_TYPE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_DATA_TYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/328",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/iif\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -5683,19 +5506,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_FOOTNOTE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/InjuriesAndIllness\/II_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/328",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/iif\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -6245,8 +6064,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/330",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/lau\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -6416,8 +6235,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/333",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/mls\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -6479,117 +6298,6 @@
       ]
     },
     {
-      "description" : "The Mid-Atlantic BLS Information Office in Philadelphia services the states of Pennsylvania, Delaware, District of Columbia, Maryland, Virginia, and West Virginia.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/341",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "Mid-Atlantic Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-211",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
-      "description" : "The Midwest BLS Information Office in Chicago services the states of Illinois, Indiana, Iowa, Michigan, Minnesota, Nebraska, North Dakota, Ohio, South Dakota, and Wisconsin.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/343",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "Midwest Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-213",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
-      "description" : "The Mountain-Plains BLS Information Office in Kansas City services the states of Colorado, Kansas, Missouri, Montana, Utah, and Wyoming.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/345",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "Mountain-Plains Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-215",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
       "description" : "Multifactor Productivity (MFP) measures the changes in output per unit of combined inputs. Indexes of MFP are produced for the private business, private nonfarm business, and manufacturing sectors of the economy. MFP is also developed for 18 3-digit NAICS manufacturing industry groups and 86 4-digit NAICS manufacturing industries, the air transportation industry, the railroad transportation industry, and the utility and gas industry.",
       "keyword" : [
         "Multifactor productivity"
@@ -6606,8 +6314,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/332",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/mfp\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -6781,88 +6489,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/335",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/nls\/"
         }
       ],
       "@type" : "dcat:Dataset",
       "title" : "National Longitudinal Surveys",
       "accessLevel" : "public",
       "identifier" : "DOL-BLS-207",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
-      "description" : "The New England BLS Information Office in Boston services the states of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/339",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "New England Inforamtion Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-209",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
-      "description" : "The New York-New Jersey BLS Information Office in New York City services the states of New Jersey and New York, and Puerto Rico and the U.S. Virgin Islands.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/340",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "New York-New Jersey Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-210",
       "publisher" : {
         "@type" : "org:Organization",
         "name" : "U.S. Department of Labor Bureau of Labor Statistics"
@@ -6986,19 +6620,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_AREA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7030,19 +6660,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_AREATYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_AREATYPE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_AREATYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7074,19 +6700,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_DATA_PUB?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7118,19 +6740,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_DATATYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_DATATYPE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_DATATYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7162,19 +6780,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_FOOTNOTE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7206,19 +6820,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_INDUSTRY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_INDUSTRY?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_INDUSTRY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7250,19 +6860,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_OCCUGROUP?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_OCCUGROUP?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_OCCUGROUP?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7294,19 +6900,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_OCCUPATION?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_OCCUPATION?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_OCCUPATION?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7338,19 +6940,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_RELEASE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_RELEASE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_RELEASE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7382,19 +6980,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SEASONAL?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SEASONAL?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SEASONAL?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7426,19 +7020,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SECTOR?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SECTOR?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SECTOR?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7470,19 +7060,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SERIES?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7514,19 +7100,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_STATEMSA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_STATEMSA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/OES\/OE_STATEMSA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/337",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/oes\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -7603,9 +7185,10 @@
       ],
       "distribution" : [
         {
+          "format" : "html",
+          "title" : "Occupational Outlook Handbook",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/336",
-          "mediaType" : "text\/csv"
+          "accessURL" : "http:\/\/www.bls.gov\/ooh\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8123,19 +7706,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_AREA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_AREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8169,19 +7748,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_DATA_PUB?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_DATA_PUB?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8215,19 +7790,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_FOOTNOTE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_FOOTNOTE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8261,19 +7832,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_INDUSTRY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_INDUSTRY?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_INDUSTRY?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8307,19 +7874,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_LQAREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_LQAREA?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_LQAREA?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8353,19 +7916,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_OWNER?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_OWNER?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_OWNER?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8399,19 +7958,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_SERIES?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_SERIES?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8445,19 +8000,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_STATE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_STATE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_STATE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.bls.gov\/cew\/"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8491,19 +8042,16 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_TYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_TYPE?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "mediaType" : "text\/csv",
+          "downloadURL" : "http:\/\/www.bls.gov\/cew\/",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/CEW\/EN_TYPE?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/318",
-          "mediaType" : "text\/csv"
+          "format" : "csv"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8518,80 +8066,6 @@
       "programCode" : [
         "012:033"
       ]
-    },
-    {
-      "description" : "The Southeast BLS Information Office in Atlanta services the states of Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, and Tennessee.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/342",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "Southeast Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-212",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
-      "description" : "The Southwest BLS Information Office in Dallas services the states of Arkansas, Louisiana, New Mexico, Oklahoma, and Texas.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/344",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "Southwest Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-214",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
     },
     {
       "description" : "The Standard Occupational Classification (SOC) system is used by Federal statistical agencies to classify workers into occupational categories for the purpose of collecting, calculating, or disseminating data. All workers are classified into one of over 820 occupations according to their occupational definition.",
@@ -8723,19 +8197,15 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/statistics\/BLS_Numbers\/unemploymentRate12MonthNetChange?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/statistics\/BLS_Numbers\/unemploymentRate12MonthNetChange?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/statistics\/BLS_Numbers\/unemploymentRate12MonthNetChange?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.bls.gov\/timeseries\/LNS14000000",
-          "mediaType" : "application\/xls"
+          "format" : "xls",
+          "accessURL" : "http:\/\/data.bls.gov\/timeseries\/LNS14000000"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8829,43 +8299,6 @@
       ]
     },
     {
-      "description" : "The Western BLS Information Office in San Francisco services the states of Alaska, Arizona, California, Hawaii, Idaho, Nevada, Oregon, and Washington.",
-      "keyword" : [
-        "Employment and Unemployment",
-        "Inflation and Consumer Spending",
-        "Pay and Benefits",
-        "Workplace Injuries"
-      ],
-      "contactPoint" : {
-        "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:kohli.amrit@dol.gov",
-        "fn" : "Amrit Kohli"
-      },
-      "modified" : "2009-06-19",
-      "bureauCode" : [
-        "012:20"
-      ],
-      "distribution" : [
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/346",
-          "mediaType" : "text\/csv"
-        }
-      ],
-      "@type" : "dcat:Dataset",
-      "title" : "Western Information Office",
-      "accessLevel" : "public",
-      "identifier" : "DOL-BLS-216",
-      "publisher" : {
-        "@type" : "org:Organization",
-        "name" : "U.S. Department of Labor Bureau of Labor Statistics"
-      },
-      "programCode" : [
-        "012:035"
-      ],
-      "issued" : "2009-06-19"
-    },
-    {
       "description" : "The Work Stoppages program provides monthly and annual data and analysis of major work stoppages involving 1,000 or more workers lasting one full shift or longer. The monthly and annual data show the establishment and union(s) involved in the work stoppage along with the location, the number of workers and the days of idleness. The monthly data list all work stoppages involving 1,000 or more workers that occurred during the full calendar month for each month of the year. The annualized data provide statistics, analysis and details of each work stoppage of 1,000 or more workers that occurred during the year. The work stoppages data are gathered from public news sources, such as newspapers and the Internet. The BLS does not distinguish between strikes and lock-outs in the data; both are included in the term \"work stoppages\".",
       "keyword" : [
         "Labor dispute",
@@ -8926,13 +8359,14 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/download.bls.gov\/pub\/time.series\/ws\/",
-          "mediaType" : "application\/json"
+          "format" : "csv",
+          "accessURL" : "http:\/\/download.bls.gov\/pub\/time.series\/ws\/"
         },
         {
+          "format" : "json",
+          "title" : "BLS API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.bls.gov\/developers\/",
-          "mediaType" : "application\/json"
+          "accessURL" : "http:\/\/www.bls.gov\/developers\/"
         }
       ],
       "@type" : "dcat:Dataset",
