@@ -8575,7 +8575,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Affiliate One Stops",
       "accessLevel" : "public",
@@ -8603,7 +8603,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Apprenticeship Programs",
       "accessLevel" : "public",
@@ -8631,7 +8631,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Apprenticeship sponsors",
       "accessLevel" : "public",
@@ -8700,7 +8700,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Career Resource Library",
       "accessLevel" : "public",
@@ -8728,7 +8728,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Comprehensive American Job Centers",
       "accessLevel" : "public",
@@ -8827,7 +8827,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Indian and Native American Program",
       "accessLevel" : "public",
@@ -8857,28 +8857,21 @@
       ],
       "distribution" : [
         {
+          "@type" : "dcat:Distribution",
+          "format" : "xls",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
+        },
+        {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
+        },
+        {
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/IPIA\/$metadata",
-          "title" : "API (XML)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_1Year"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/xls"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/xml"
-        },
-        {
-          "format" : "json",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/IPIA\/$metadata",
-          "title" : "API (JSON)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_1Year"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_1Year?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8912,18 +8905,19 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "xls",
           "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/xml"
+          "format" : "xml",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
         },
         {
-          "mediaType" : "text\/html",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_3Year",
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "format" : "API"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_3Year?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -8957,19 +8951,18 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/vnd.ms-excel"
+          "format" : "xls",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/xml"
+          "format" : "xml",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
         },
         {
-          "mediaType" : "text\/html",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_CalendarYear",
           "@type" : "dcat:Distribution",
-          "format" : "API"
+          "format" : "API",
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_CalendarYear?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -9071,19 +9064,18 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/vnd.ms-excel"
+          "format" : "xls",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm",
-          "mediaType" : "application\/xml"
+          "format" : "xml",
+          "accessURL" : "http:\/\/www.dol.gov\/dol\/maps\/Data.htm"
         },
         {
-          "mediaType" : "text\/html",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_Fiscal_Year",
           "@type" : "dcat:Distribution",
-          "format" : "API"
+          "format" : "API",
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/IPIA\/IPIA_Fiscal_Year?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -9183,7 +9175,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Job Banks",
       "accessLevel" : "public",
@@ -9212,7 +9204,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Job Club",
       "accessLevel" : "public",
@@ -9240,7 +9232,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Job Corps Centers",
       "accessLevel" : "public",
@@ -9269,7 +9261,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Military to Civilian Crosswalk",
       "accessLevel" : "public",
@@ -9298,7 +9290,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "National Certifications",
       "accessLevel" : "public",
@@ -9326,7 +9318,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "National Farmworker Jobs Program",
       "accessLevel" : "public",
@@ -9400,7 +9392,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Older Worker Program - SCSEP",
       "accessLevel" : "public",
@@ -9537,7 +9529,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Professional Associations",
       "accessLevel" : "public",
@@ -10279,7 +10271,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Refugee Social Services",
       "accessLevel" : "public",
@@ -10308,7 +10300,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "State\/Federal Licensed Occupations",
       "accessLevel" : "public",
@@ -10337,7 +10329,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "State Workforce Investment Act Eligible Training Provider URLs",
       "accessLevel" : "public",
@@ -10418,7 +10410,7 @@
       "bureauCode" : [
         "012:05"
       ],
-      "license" : "http:\/\/www.opendefinition.org\/licenses\/cc-by",
+      "license" : "https:\/\/creativecommons.org\/licenses\/by\/4.0",
       "@type" : "dcat:Dataset",
       "title" : "Workforce Investment Boards and Areas",
       "accessLevel" : "public",
@@ -10448,8 +10440,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/1997",
-          "mediaType" : "text\/csv"
+          "accessURL" : "http:\/\/www.jobcorps.gov\/AboutJobCorps\/performance_planning.aspx"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -10482,8 +10473,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/1998",
-          "mediaType" : "text\/csv"
+          "accessURL" : "http:\/\/www.jobcorps.gov\/AboutJobCorps\/performance_planning.aspx"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -10516,8 +10506,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/1999",
-          "mediaType" : "text\/csv"
+          "accessURL" : "http:\/\/www.jobcorps.gov\/AboutJobCorps\/performance_planning.aspx"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -10550,8 +10539,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/1996",
-          "mediaType" : "text\/csv"
+          "accessURL" : "http:\/\/www.jobcorps.gov\/AboutJobCorps\/performance_planning.aspx"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -10584,8 +10572,8 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/107a\/107aOrders.asp",
-          "mediaType" : "application\/vnd.ms-excel"
+          "format" : "xls",
+          "accessURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/107a\/107aOrders.asp"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -10705,22 +10693,17 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/BasicMineInfo\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/BasicMineInfo\/addressOfRecord"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/BasicMineInfo\/addressOfRecord?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/BasicMineInfo\/$metadata",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/BasicMineInfo\/addressOfRecord"
-        },
-        {
-          "@type" : "dcat:Distribution",
+          "mediaType" : "text\/csv",
           "downloadURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/DataSets\/AddressofRecord.zip",
-          "mediaType" : "text\/csv"
+          "@type" : "dcat:Distribution",
+          "format" : "csv"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -10979,24 +10962,17 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/FullMineInfo\/MSHA_mines\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/FullMineInfo\/MSHA_mines"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/FullMineInfo\/MSHA_mines?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
-          "mediaType" : "application\/xml",
-          "title" : "API (XML)",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/FullMineInfo\/MSHA_mines\/$metadata",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Mining\/FullMineInfo\/MSHA_mines",
-          "@type" : "dcat:Distribution",
-          "format" : "xml"
-        },
-        {
-          "@type" : "dcat:Distribution",
+          "mediaType" : "text\/csv",
           "downloadURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/DataSets\/Mines.zip",
-          "mediaType" : "text\/csv"
+          "@type" : "dcat:Distribution",
+          "format" : "csv"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11032,23 +11008,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/Accidents\/mineAccidents\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/Accidents\/mineAccidents"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/Accidents\/mineAccidents\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/Accidents\/mineAccidents"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "https:\/\/explore.data.gov\/Energy-and-Utilities\/Accident-Injuries-Data-Set\/qbck-cccw",
-          "mediaType" : "text\/csv"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/Accidents\/mineAccidents?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11128,21 +11092,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/MineInspection\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/MineInspection\/mineInspections"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/MineInspection\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/MineInspection\/mineInspections"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/MineInspection\/mineInspections?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
+          "format" : "csv",
           "accessURL" : "https:\/\/explore.data.gov\/Energy-and-Utilities\/Mine-Inspections\/wt25-mkey"
         }
       ],
@@ -11228,23 +11186,17 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations?KEY=352e8ef9-7b38-4428-875b-eefd39df6289352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations"
-        },
-        {
-          "@type" : "dcat:Distribution",
+          "mediaType" : "text\/csv",
           "downloadURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/DataSets\/Violations.zip",
-          "mediaType" : "text\/csv"
+          "@type" : "dcat:Distribution",
+          "format" : "csv"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11283,23 +11235,16 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Mining\/Violation\/MSHA_violations?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/DataSets\/Violations.zip",
-          "mediaType" : "text\/csv"
+          "format" : "csv",
+          "accessURL" : "http:\/\/www.msha.gov\/OpenGovernmentData\/DataSets\/Violations.zip"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11378,18 +11323,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Employment\/MSHA_employmentProduction\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Employment\/MSHA_employmentProduction"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Employment\/MSHA_employmentProduction\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Employment\/MSHA_employmentProduction"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Employment\/MSHA_employmentProduction?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11616,15 +11554,22 @@
       ],
       "distribution" : [
         {
+          "mediaType" : "text\/csv",
+          "downloadURL" : "http:\/\/www.dol.gov\/asp\/programs\/reidl\/inventory\/DOL-Inventory-all.csv",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "https:\/\/explore.data.gov\/Labor-Force-Employment-and-Earnings\/Department-of-Labor-Research-and-Evaluation-Invent\/zy4n-wgdb",
-          "mediaType" : "text\/csv"
+          "format" : "csv"
         },
         {
-          "mediaType" : "text\/html",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/REI",
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "format" : "API"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Statistics\/REI?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
+        },
+        {
+          "mediaType" : "application\/xls",
+          "downloadURL" : "http:\/\/www.dol.gov\/asp\/programs\/reidl\/inventory\/DOL-Inventory-all.xls",
+          "@type" : "dcat:Distribution",
+          "format" : "xls"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11660,10 +11605,12 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "csv",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         },
         {
           "@type" : "dcat:Distribution",
+          "format" : "xml",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -11702,10 +11649,12 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "csv",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         },
         {
           "@type" : "dcat:Distribution",
+          "format" : "xml",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -11776,18 +11725,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/AutoWorkers\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/AutoWorkers\/CAR_ClosedRepurposed"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/AutoWorkers\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/AutoWorkers\/CAR_ClosedRepurposed"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/AutoWorkers\/CAR_ClosedRepurposed?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11827,13 +11769,15 @@
           "mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
           "title" : "Data for the DOL Asian American and Pacific Islander Labor Force Report",
           "downloadURL" : "http:\/\/www.dol.gov\/open\/download\/AAPI-updated.xlsx",
-          "@type" : "dcat:Distribution"
+          "@type" : "dcat:Distribution",
+          "format" : "xslx"
         },
         {
           "mediaType" : "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
           "title" : "AAPI Tables and Graphs",
           "downloadURL" : "http:\/\/www.dol.gov\/open\/download\/AAPI-tables-and-graphs-with-data-used-in-report.xlsx",
-          "@type" : "dcat:Distribution"
+          "@type" : "dcat:Distribution",
+          "format" : "xslx"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11866,18 +11810,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/DOLAgency\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/DOLAgency\/Agencies"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/DOLAgency\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/DOLAgency\/Agencies"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/DOLAgency\/Agencies?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11910,18 +11847,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/FAQ\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/SubTopics"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/FAQ\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/SubTopics"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/SubTopics?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11954,18 +11884,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/FAQ\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/TopicQuestions"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/FAQ\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/TopicQuestions"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/TopicQuestions?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -11998,18 +11921,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/FAQ\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/Topics"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/FAQ\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/Topics"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/FAQ\/Topics?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12042,18 +11958,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/FORMS\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FORMS\/Agencies"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/FORMS\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FORMS\/Agencies"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/FORMS\/Agencies?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12085,18 +11994,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/FORMS\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FORMS\/AgencyForms"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/FORMS\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/FORMS\/AgencyForms"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/FORMS\/AgencyForms?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12129,18 +12031,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerDayByKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerDayByKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerDayByKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12174,18 +12069,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12219,18 +12107,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerMonthByKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerMonthByKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerMonthByKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12264,18 +12145,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerYearByWeeks"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerYearByWeeks"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerYearByWeeks?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12309,18 +12183,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerYearByKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerYearByKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/NumberOfRequestsPerYearByKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12354,18 +12221,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerDayPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerDayPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerDayPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12399,18 +12259,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12444,18 +12297,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerMonthPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerMonthPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerMonthPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12489,18 +12335,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerWeekPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerWeekPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerWeekPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12534,18 +12373,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerYearPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerYearPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDatasetsPerYearPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12579,18 +12411,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyDays"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyDays"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyDays?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12624,18 +12449,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeys"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeys"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeys?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12669,18 +12487,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyMonths"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyMonths"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyMonths?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12714,18 +12525,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyWeeks"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyWeeks"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyWeeks?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12759,18 +12563,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyYears"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyYears"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/ApiMetrics\/PerKey\/TopDataTablesPerKeyYears?KEY=352e8ef9-7b38-4428-875b-eefd39df6289&$filter=TOKEN%20eq%20guid%27352e8ef9-7b38-4428-875b-eefd39df6289%27"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12804,18 +12601,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/VETS100\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100DataDotGov"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/VETS100\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100DataDotGov"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100DataDotGov?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12848,18 +12638,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/VETS100\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100ADataDotGov"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100ADataDotGov",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100ADataDotGov"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/VETS100\/V100ADataDotGov?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12893,23 +12676,16 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Direct_Read_Sampling"
-        },
-        {
-          "mediaType" : "application\/xml",
-          "title" : "API (XML)",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/$metadata",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Direct_Read_Sampling",
-          "@type" : "dcat:Distribution",
-          "format" : "xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Direct_Read_Sampling?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/data.gov\/details\/3979"
+          "format" : "xls",
+          "accessURL" : "https:\/\/www.osha.gov\/oilspills\/oil_directreading_bysite.html"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12943,23 +12719,16 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Laboratory_Sampling"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Laboratory_Sampling"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Laboratory_Sampling?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/data.gov\/details\/3980",
-          "mediaType" : "application\/xls"
+          "format" : "xls",
+          "accessURL" : "https:\/\/www.osha.gov\/oilspills\/oil_sltc_bysite.html"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -12993,22 +12762,16 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Noise_Report"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Noise_Report"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Safety\/GulfOilSpill\/OSHA_Noise_Report?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/data.gov\/details\/3981"
+          "format" : "xls",
+          "accessURL" : "https:\/\/www.osha.gov\/oilspills\/oil_noise_bysite.html"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -13041,21 +12804,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/foodService"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/foodService?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/foodService"
-        },
-        {
-          "@type" : "dcat:Distribution",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -13090,21 +12847,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/full"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/full?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/full"
-        },
-        {
-          "@type" : "dcat:Distribution",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -13140,21 +12891,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/hospitality"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/hospitality?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/hospitality"
-        },
-        {
-          "@type" : "dcat:Distribution",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -13190,21 +12935,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/occupationCode"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/occupationCode?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/occupationCode"
-        },
-        {
-          "@type" : "dcat:Distribution",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -13240,21 +12979,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/retail"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/retail?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/retail"
-        },
-        {
-          "@type" : "dcat:Distribution",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -13290,21 +13023,15 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/substanceCode"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/substanceCode?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         },
         {
+          "@type" : "dcat:Distribution",
           "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/OSHA\/substanceCode"
-        },
-        {
-          "@type" : "dcat:Distribution",
           "accessURL" : "http:\/\/ogesdw.dol.gov\/"
         }
       ],
@@ -13341,18 +13068,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/ChemicalExposureInspection"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/ChemicalExposureInspection"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/ChemicalExposureInspection?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -13385,18 +13105,11 @@
       ],
       "distribution" : [
         {
-          "format" : "json",
+          "format" : "API",
           "describedBy" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/$metadata",
-          "title" : "API (JSON)",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/EstablishmentSpecificInjuryIllnessRates"
-        },
-        {
-          "format" : "xml",
-          "describedBy" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/$metadata",
-          "title" : "API (XML)",
-          "@type" : "dcat:Distribution",
-          "accessURL" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/EstablishmentSpecificInjuryIllnessRates"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/SafetyHealth\/EstablishmentSpecificInjuryIllnessRates?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -13429,6 +13142,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "html",
           "accessURL" : "http:\/\/www.dol.gov\/owcp\/dcmwc\/statistics"
         }
       ],
@@ -13594,6 +13308,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "html",
           "accessURL" : "http:\/\/www.dol.gov\/owcp\/dcmwc\/statistics"
         }
       ],
@@ -13627,6 +13342,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "html",
           "accessURL" : "http:\/\/www.dol.gov\/owcp\/dfec\/federalagency.htm"
         }
       ],
@@ -13691,6 +13407,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "html",
           "accessURL" : "http:\/\/www.dol.gov\/owcp\/dlhwc\/IndustryDBAPerformanceResults.htm"
         }
       ],
@@ -13723,6 +13440,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "html",
           "accessURL" : "http:\/\/www.dol.gov\/owcp\/dlhwc\/LongshoreProgramPerformanceResults.htm"
         }
       ],
@@ -13756,6 +13474,7 @@
       "distribution" : [
         {
           "@type" : "dcat:Distribution",
+          "format" : "html",
           "accessURL" : "http:\/\/www.dol.gov\/owcp\/dcmwc\/statistics"
         }
       ],
@@ -13814,8 +13533,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/sol\/foia\/2014anrpt.htm",
       "modified" : "2014-01-31",
@@ -13858,8 +13577,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/dol\/foia\/",
       "modified" : "2013-10-15",
@@ -13901,8 +13620,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/dol\/foia\/quarterly\/US_DOL-2013-Q1.htm",
       "modified" : "2013-01-15",
@@ -13938,8 +13657,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/dol\/foia\/quarterly\/US-DOL-2013-Q2.htm",
       "modified" : "2013-04-15",
@@ -13975,8 +13694,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/dol\/foia\/quarterly\/US_DOL-2013-Q3.htm",
       "modified" : "2013-07-15",
@@ -14012,8 +13731,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/dol\/foia\/quarterly\/US_DOL-2013-Q4.htm",
       "modified" : "2013-10-15",
@@ -14047,8 +13766,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/sol\/foia\/2011anrpt.htm",
       "modified" : "2011-01-31",
@@ -14082,8 +13801,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/sol\/foia\/2012anrpt.htm",
       "modified" : "2012-01-31",
@@ -14117,8 +13836,8 @@
       ],
       "contactPoint" : {
         "@type" : "vcard:Contact",
-        "hasEmail" : "mailto:knickerbocker.donald@dol.gov",
-        "fn" : "Donald Knickerbocker"
+        "hasEmail" : "mailto:hoffman.denise@dol.gov",
+        "fn" : "Denise Hoffman"
       },
       "landingPage" : "http:\/\/www.dol.gov\/sol\/foia\/2013anrpt.htm",
       "modified" : "2013-01-31",
@@ -14475,14 +14194,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/foodService?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/foodService?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/foodService?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -14516,14 +14231,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/Frequency?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/Frequency?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/Frequency?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -14557,14 +14268,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/full?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/full?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/full?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -14599,14 +14306,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/hospitality?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/hospitality?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/hospitality?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
@@ -14641,14 +14344,10 @@
       ],
       "distribution" : [
         {
+          "format" : "API",
+          "title" : "DOL API",
           "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/retail?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/json"
-        },
-        {
-          "@type" : "dcat:Distribution",
-          "downloadURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/retail?KEY=YOUR_API_KEY",
-          "mediaType" : "application\/xml"
+          "accessURL" : "http:\/\/api.dol.gov\/V1\/Compliance\/WHD\/retail?KEY=352e8ef9-7b38-4428-875b-eefd39df6289"
         }
       ],
       "@type" : "dcat:Dataset",
